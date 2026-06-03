@@ -1,7 +1,7 @@
 # ShadoNet: A Nucleus Detection and Classification Framework for Ki-67 Pathology Images
 
 <p align="center">
-  <img src="assets/shadonet_architecture.png" width="950">
+  <img src="assets/shadonet_architecture.png" width="600">
 </p>
 
 <p align="center">
