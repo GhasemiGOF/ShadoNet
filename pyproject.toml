@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nureg-sam-cell-classification"
+version = "0.1.0"
+description = "Training, evaluation, and SAM label-generation utilities for nucleus regression/classification experiments."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "scipy",
+  "opencv-python",
+  "Pillow",
+  "click",
+  "tqdm",
+  "torch",
+  "scikit-image",
+  "scikit-learn",
+  "numba",
+  "shapely",
+  "matplotlib",
+]
+
+[project.optional-dependencies]
+sam = ["segment-anything"]
+tensorboard = ["tensorboardX"]
+
+[tool.setuptools.packages.find]
+include = ["nureg*"]

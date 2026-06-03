@@ -1,0 +1,14 @@
+numpy
+scipy
+opencv-python
+Pillow
+click
+tqdm
+torch
+scikit-image
+scikit-learn
+numba
+shapely
+matplotlib
+tensorboardX
+segment-anything
